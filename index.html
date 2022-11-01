@@ -1,62 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Raleway:wght@100;200&family=Roboto:wght@100&family=Rubik&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300;400&family=Raleway:wght@100;200&family=Roboto:wght@100&family=Rubik&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Raleway:wght@100;200&family=Roboto:wght@100&family=Rubik&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300;400&family=Raleway:wght@100;200&family=Roboto:wght@100&family=Rubik&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
 </head>
+
 <body>
     <header id="Home">
         <nav>
             <span class="span1">Ravichandra Patil</span>
-            <span class="imgm"><img class="imgw" src="./images/icons8-menu.svg" alt=""></span>
+            <div class="imgw">
+                <div id="toggle"></div>
+                <div id="sidebar">
+                    <ol>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#about" data-offset="500">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ol>
+                </div>
+            </div>
             <ul>
                 <li><a class="a1" href="#Home">Home</a></li>
                 <li><a class="a1" href="#about">About</a></li>
                 <li><a class="a1" href="#portfolio">Portfolio</a></li>
                 <li><a class="a1" href="#resume">Resume</a></li>
+                <li><a class="a1" href="#people">People</a></li>
                 <li><a class="a1" href="#contacts">Contact</a></li>
             </ul>
         </nav>
         <div id="top1">
             <p class="p0">Hi, <br>I am Ravichandra Patil</p>
             <p class="p1">Hi, I am Ravichandra Patil</p>
-            <p class="p2">A Front-End Developer</p>
+            <p class="p2">A Full-Stack Developer</p>
             <p class="p3">Get ready to turn ideas into reality</p>
-            <img class="img1" src="./images/banner-guy.png" alt="">
+            <div class="banner-guy">
+                <img class="img1" src="./images/banner-guy.png" alt="cover">
+            </div>
             <div class="custom-shape-divider-bottom-1656312052">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        class="shape-fill"></path>
                 </svg>
             </div>
             <div class="hire">
-                <a href="#"><button class="button1">Hire Me</button></a>
+                <a href="#contacts"><button class="button1">Hire Me</button></a>
                 <a class="a2" href="#resume"><button class="button2">Resume</button></a>
             </div>
-            
+
         </div>
     </header>
     <section id="about">
         <div class="inner">
-            <img class="img2" src="./images/about-me-guy.png" alt="">
+            <img class="img2" src="./images/about-me-guy.png" alt="cover">
             <p class="p4">About Me</p>
             <hr class="hr1">
-            <p class="p5">I'm a web designer & front-end developer with 7 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
-            <p class="p6">I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me cooking, gardening or working out in the park.</p>
+            <p class="p5">I'm a <strong>MERN</strong> developer seeking a beginner role to enhance and explore my
+                technical knowledge
+                gained at <u><i>PrepBytes</i></u>. My primary focus is developing responsive web applications for
+                <strong>web</strong>, <strong>mobile</strong> & <strong>tablet</strong>
+                and strengthening the security level for <u>backend</u> apps. Looking to start my career as an
+                entry-level
+                software developer with a reputed firm driven by technology and interfaces.<br><br>
+                Strong in design and integration with intuitive problem-solving skills. Proficient in <strong>HTML,
+                    CSS, JavaScript, Reactjs, Nodejs</strong>, and <strong>MongoDB</strong>. Passionate about
+                implementing and launching new projects.
+                Ability to translate business requirements into technical solutions.
+            </p><br>
             <div class="box">
-                <p class="p7">Languages/Library/Technology</p> <hr class="hr2">
+                <p class="p7">Languages/Library/Technology :</p>
                 <div class="box2">
-                    <img class="imgone img3a" width="9%" src="./images/html.svg" alt="">
-                    <img class="imgone img3b" width="9%" src="./images/css.svg" alt="">
-                    <img class="imgone img3c" width="9%" src="./images/js.svg" alt="">
-                    <img class="imgone img3d" width="9%" src="./images/netlify.svg" alt="">
-                    <img class="imgone img3e" width="9%" src="./images/bootstrap.svg" alt="">
-                    <img class="imgone img3f" width="9%" src="./images/react-native.svg" alt="">
-                    <img class="imgone img3g" width="9%" src="./images/github.svg" alt="">
+                    <img class="imgone img3a" width="9%" src="./images/html.svg" alt="cover">
+                    <img class="imgone img3b" width="9%" src="./images/css.svg" alt="cover">
+                    <img class="imgone img3c" width="9%" src="./images/js.svg" alt="cover">
+                    <img class="imgone img3d" width="9%" src="./images/netlify.svg" alt="cover">
+                    <img class="imgone img3e" width="9%" src="./images/bootstrap.svg" alt="cover">
+                    <img class="imgone img3f" width="9%" src="./images/react-native.svg" alt="cover">
+                    <img class="imgone img3g" width="9%" src="./images/github.svg" alt="cover">
                 </div>
             </div>
         </div>
@@ -65,72 +98,128 @@
         <div class="main">
             <p class="p8">My Portfolio</p>
             <hr class="hr3">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-            <div class="four"></div>
-            <div class="five"></div>
-            <div class="six"></div>
+            <p class="project-name1">React-Blog-App Back-End</p>
+            <a target="_blank" href="https://blog-app-backend-ravi.netlify.app/">
+                <div class="one"></div>
+            </a>
+            <p class="project-name2">React-Blog-App Front-End</p>
+            <a target="_blank" href="https://react-blog-app-ravi.netlify.app/">
+                <div class="two"></div>
+            </a>
+            <p class="project-name3">To-Do Js</p>
+            <a target="_blank"
+                href="https://ravip925.github.io/PrepByte-Projects/JavaScript_Projects/ToDo%20List%20JS/index.html">
+                <div class="three"></div>
+            </a>
+            <p class="project-name4">To-Do List-Mobile</p>
+            <a target="_blank"
+                href="https://ravip925.github.io/PrepByte-Projects/CSS%20Projects/ToDo%20Lists%20Mobile%20UI/index.html">
+                <div class="four"></div>
+            </a>
+            <p class="project-name5">Digital Clock Js</p>
+            <a target="_blank"
+                href="https://ravip925.github.io/PrepByte-Projects/JavaScript_Projects/Digital%20Clock/index.html">
+                <div class="five"></div>
+            </a>
+            <p class="project-name6">Backtracking - HTML5</p>
+            <a target="_blank"
+                href="https://ravip925.github.io/PrepByte-Projects//HTML%20Projects/Backtracking/index.html">
+                <div class="six"></div>
+            </a>
         </div>
     </section>
     <section id="resume">
         <div class="main2">
             <p class="p9">Resume</p>
             <hr class="hr4">
-            <div class="inner1"><img class="img3" src="./images/resume-guy-img@2x.png" alt=""></div>
+            <div class="inner1">
+                <img class="img3" src="./images/resume-guy-img@2x.png" alt="cover">
+            </div>
             <div class="inner2">
-                <img width="16%" src="./images/icons8-facebook.svg" alt="">
-                <img width="15%" src="./images/dribbble.svg" alt="">
-                <img width="15%" src="./images/icons8-skype.svg" alt="">
-                <img width="15%" src="./images/behance.svg" alt="">
-                <img width="15%" src="./images/pinterest.svg" alt="">
+                <div class="inner-divs"><a target="_blank" href="https://www.facebook.com/ravipatil.ravipatil.526/"><img
+                            width="100%" src="./images/icons8-facebook.svg" alt="cover"></a></div>
+                <div class="inner-divs"><a target="_blank"
+                        href="https://www.linkedin.com/in/ravichandra-patil-4b0415164/"><img width="100%"
+                            src="./images/icons8-linkedin-circled-250.svg" alt="cover"></a></div>
+                <div class="inner-divs"><a target="_blank" href="https://github.com/Ravip925"><img width="95%"
+                            src="./images/GitHub-Mark-120px-plus.png" alt="cover"></a></div>
+                <div class="inner-divs"><a target="_blank" href="https://twitter.com/Ravipatiiil"><img width="100%"
+                            src="./images/icons8-twitter-circled.svg" alt="cover"></a></div>
+                <div class="inner-divs"><a target="_blank" href="https://www.instagram.com/r_a_v_i_i_i_i/"><img
+                            width="100%" src="./images/icons8-instagram.svg" alt="cover"></a></div>
             </div>
             <div class="inner3">
-                <p class="p9a">Work Experience</p>
+                <p class="p9a">Certification</p>
                 <hr class="hr5">
-                <p class="p9b">Senior Front End Developer - FULLTIME</p>
-                <small class="s1">Facebook Inc.</small>
-                <p class="p9c">Senior Front End Developer - FULLTIME</p>
-                <small class="s2">Facebook Inc.</small>
-                
-                <div class="circle1"><div class="line"></div></div>
-                <div class="circle2"></div>
+                <p class="p9b">Full-Stack (MERN) Web Developer</p>
+                <small class="s1">PrepBytes</small>
+                <!-- <p class="p9c">Senior Front End Developer - FULLTIME</p>
+                <small class="s2">Facebook Inc.</small> -->
+
+                <div class="circle1">
+                    <div class="line"></div>
+                </div>
                 <p class="p9d">Education</p>
                 <hr class="hr6">
-                <p class="p9e">Columbia University</p>
-                <small class="s3">Master in Software Engineering </small>
-                <p class="p9f">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ut velit quibusdam nam ex quas rerum facilis deleniti dolore quo sapiente quisquam et</p>
-                <div class="circle3"><div class="line1"></div></div>
-                <button class="first">2014-2020</button>
-                <button class="second">2010-2013</button>
-                <button class="third">2008-2010</button>
+                <p class="p9e">Maratha Mandal's Engineering College</p>
+                <small class="s3">Mechanical Engineering </small>
+                <p class="p9ef">Maratha Mandal's Compo. Pre-University College</p>
+                <small class="s3e">Science </small>
+                <div class="resume-desc">
+                    <p class="p9ff">To know more about me, download my resume from here.</p>
+                    <a class="resume-download" href="./Ravichandra's Resume.pdf" download><img width="100%"
+                            src="./images/download.svg" alt="cover"></a>
+                </div>
+
+                <div class="circle3">
+                    <div class="line1"></div>
+                </div>
+                <div class="circle2"></div>
+                <button class="first">2022</button>
+                <button class="third">2016-2020</button>
+                <button class="second">2014-2016</button>
             </div>
         </div>
     </section>
-    
-    <div class="people">
+
+    <section id="people">
         <p class="p11">What People Say About Me</p>
         <hr class="hr8">
-        <div class="down"><a class="a3" href="#">View more testimonials <span class="s5">&#10230;</span></a></div>
         <div class="main3">
-            <div class="photo say1"><img width="100%" src="./images/testimonial-img1@2x.png" alt=""><span class="spann">Elizabeth Martin</span><br><small class="s4">SaveSpace.Inc</small><br><br><p class="p10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim iste quaerat eligendi quam.</p></div>
-            <div class="photo say2"><img width="100%" src="./images/testimonial-img2@2x.png" alt=""><span>Alberto Donko</span><br><small class="s4">ScreepApp</small><br><br><p class="p10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim iste quaerat eligendi quam.</p></div>
-            <div class="photo say3"><img width="100%" src="./images/testimonial3-modified.png" alt=""><span>Alexander Parkinson</span><br><small class="s4">MyTravel.com</small><br><br><p class="p10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim iste quaerat eligendi quam.</p></div>
+            <div class="photo say1"><img id="photo-test" width="100%" src="./images/omi.png" alt="cover"><span
+                    class="spann">Omkar Jadhav</span><br><small class="s4">Friend</small><br><br>
+                <p class="p10">I have seen his projects, and I need to say that they are great. He is doing great work,
+                    and I am sure he will get a good job.</p>
+            </div>
+            <div class="photo say2"><img id="photo-test" width="100%" src="./images/sai.png" alt="cover"><span>Sai
+                    Ram</span><br><small class="s4">PrepBytes EA</small><br><br>
+                <p class="p10">He has good character and helped me when I had doubts. He gained a lot of knowledge and made submissions on time.</p>
+            </div>
+            <div class="photo say3"><img id="photo-test" width="100%" src="./images/sharat.png"
+                    alt="cover"><span>Sharat</span><br><small class="s4">PrepBytes</small><br><br>
+                <p class="p10">I have been a mentor for him in HTML, CSS, and Javascript languages. Good to see that he completed his course. I will wish him a promising future ahead.</p>
+            </div>
         </div>
-    </div>
+    </section>
     <section id="contacts">
         <div class="main4">
             <div class="inside1">
-                <p class="plast">Contact Me</p><hr class="hrlast">
+                <p class="plast">Contact Me</p>
+                <hr class="hrlast">
                 <p class="p12">Lets connect</p>
-                <p class="p12a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laudantium quidem laborum magnam pariatur impedit? Numquam, ex! A veritatis eum iusto aliquam suscipit! Ad repudiandae laborum corrupti! Saepe, dolorum excepturi...</p>
-                <img class="imglast1" src="./images/email (1).svg" alt=""><small class="small1">info@mywebsite.com</small>
-                <img class="imglast2" src="./images/phone (1) (1).svg" alt=""><small class="small2">1(123) 456-7890</small>
-                <img class="imglast3" src="./images/marker (1).svg" alt=""><small class="small3">1234 Street Ln Virginia Beach, VA 12345</small>
+                <p class="p12a">If you have any questions or want to hire me, drop me a message below, and I will get
+                    back to you as soon as possible.</p>
+                <p class="p12a">Thank You.</p>
+                <img class="imglast1" src="./images/email (1).svg" alt="cover"><small class="small1"><a id="emailTo"
+                        href="mailto:ravichandrapatil.email@gmail.com">ravichandrapatil.email@gmail.com</a></small>
+                <img class="imglast2" src="./images/phone (1) (1).svg" alt="cover"><small
+                    class="small2">+91-9964812196</small>
+                <img class="imglast3" src="./images/marker (1).svg" alt="cover"><small class="small3">Belgaum
+                    591108</small>
             </div>
             <div class="inside2">
                 <p class="p12b">Send me a message</p><br>
-                <form action="">
+                <form action="mailto:patilravi400@gmail.com" method="post" enctype="text/plain">
                     <label for="name">First and last name <span class="span2">*</span></label><br>
                     <input type="text" name="name" id="name" required><br>
                     <label for="email">Email Address <span class="span2">*</span></label><br>
@@ -138,13 +227,16 @@
                     <label for="phone">Phone Number <span class="span2">*</span></label><br>
                     <input type="number" name="phone" id="phone" required><br>
                     <label for="message">Message <span class="span2">*</span></label><br>
-                    <textarea name="message" id="message" cols="45" rows="2" placeholder="your message here..." required></textarea>
-                    <button class="lastbutton">Send Message</button>
+                    <textarea name="message" id="message" cols="45" rows="2" placeholder="your message here..."
+                        required></textarea>
+                    <button type="submit" class="lastbutton">Send Message</button>
                 </form>
             </div>
         </div>
-        
+
     </section>
     <footer><span>&#169</span> 2022 Ravichandra Patil. All rights reserved.</footer>
+    <script src="index.js"></script>
 </body>
+
 </html>
