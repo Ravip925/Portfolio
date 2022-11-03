@@ -272,21 +272,24 @@ a{
     display: none;
 }
 .p8{
+    width: 100%;
+    text-align: center;
     font-size: 2em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #0d674c;
     position: absolute;
-    left: 28.5vw;
+    left: 0vw;
     bottom: 430px;
 }
 .hr3{
-    width: 185px;
+    width: 20vw;
     height: 5px;
+    border-radius: 10px;
     border: none;
     background-color: #fd8b08;
     position: absolute;
-    left: 28.5vw;
+    left: 25vw;
     top: -45px;
 }
 .main{
@@ -373,21 +376,24 @@ a{
 }
 .p9{
     font-size: 2em;
+    width: 100%;
+    text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #0d674c;
     position: absolute;
-    left: 30vw;
+    left: 0vw;
     bottom: 410px;
 
 }
 .hr4{
-    width: 124px;
+    width: 15vw;
     height: 5px;
     border: none;
+    border-radius: 10px;
     background-color: #fd8b08;
     position: absolute;
-    left: 30vw;
+    left: 27.4vw;
     top: -45px;
 }
 .inner1{
@@ -484,22 +490,7 @@ a{
     top: 100px;
     left: 3.5vw; 
 }
-.p9c{
-    font-size: 1em;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0d674c;
-    position: absolute;
-    top: 135px;
-    left: 3.5vw;
-}
-.s2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0d674c;
-    position: absolute;
-    top: 175px;
-    left: 3.5vw;  
-}
+
 .p9d{
     font-size: 1.3em;
     font-weight: bold;
@@ -610,8 +601,8 @@ a{
 }
 .second{
     width: 90px;
-    height: 20px;
-    border-radius: 10px;
+    height: 22px;
+    border-radius: 15px;
     font-size: 1vw;
     border: none;
     color: wheat;
@@ -624,8 +615,8 @@ a{
 
 .third{
     width: 90px;
-    height: 20px;
-    border-radius: 10px;
+    height: 22px;
+    border-radius: 15px;
     font-size: 1vw;
     border: none;
     color: wheat;
@@ -636,11 +627,11 @@ a{
     top: 240px;
 }
 #people{
-    width: 85%;
+    width: 100%;
     height: 500px;
     position: relative;
     top: -30px;
-    left: 14.5vw;
+    left: 0vw;
 }
 .main3{
     width:70vw;
@@ -653,6 +644,7 @@ a{
     0 0 30px rgba(167, 167, 167, 0.829);
     position: relative;
     top: 160px;
+    left: 15vw;
     
 }
 .photo{
@@ -691,22 +683,24 @@ span{
 
 .p11{
     font-size: 2em;
+    width: 100%;
+    text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #0d674c;
-    width: 60vw;
     position: absolute;
-    left: 20vw;
+    left: 0vw;
     top: 40px;
 }
 .hr8{
-    width: 415px;
+    width: 40vw;
     height: 5px;
+    border-radius: 10px;
     border: none;
     background-color: #fd8b08;
     position:absolute;
     top: 110px;
-    left: 20vw;
+    left: 29.4vw;
     
 }
 #contacts{
@@ -841,21 +835,24 @@ textarea{
 }
 .plast{
     font-size: 2em;
+    width: 100%;
+    text-align: center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #0d674c;
     position: absolute;
     bottom: 500px;
-    left: 29vw;
+    left: 0vw;
 }
 .hrlast{
-    width: 175px;
+    width: 17vw;
     height: 5px;
     border: none;
+    border-radius: 10px;
     background-color: #fd8b08;
     position: absolute;
     bottom: 515px;
-    left: 29vw;
+    left: 26.5vw;
 }
 footer{
     height: 80px;
@@ -1492,25 +1489,7 @@ footer{
         top: 410px;
         left: 16vw; 
     }
-    .p9c{
-        width: 70vw;
-        font-size: 1em;
-        font-weight: bold;
-        line-height: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #0d674c;
-        position: absolute;
-        top: 480px;
-        left: 16vw;
-    }
-    .s2{
-        font-family: Arial, Helvetica, sans-serif;
-        color: #0d674c;
-        font-weight: bold;
-        position: absolute;
-        top: 560px;
-        left: 16vw;  
-    }
+   
     .p9d{
         font-size: 1.5em;
         font-weight: bold;
@@ -1672,6 +1651,7 @@ footer{
         0 0 0px;
         position: relative;
         top: 70px;
+        left: 0;
         
     }
     .photo{
@@ -2528,26 +2508,7 @@ footer{
         top: 160px;
         left: 16vw; 
     }
-    .p9c{
-        width: 65vw;
-        font-size: 1.8em;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #0d674c;
-        line-height: 40px;
-        position: absolute;
-        top: 345px;
-        left: 16vw;
-    }
-    .s2{
-        font-family: Arial, Helvetica, sans-serif;
-        color: #0d674c;
-        font-weight: bold;
-        font-size: 1.5em;
-        position: absolute;
-        top: 480px;
-        left: 16vw;  
-    }
+   
     .p9d{
         font-size: 2.5em;
         font-weight: bold;
@@ -2703,6 +2664,7 @@ footer{
         0 0 0px;
         position: relative;
         top: 100px;
+        left: 0;
         
     }
     .photo{
