@@ -112,9 +112,9 @@
                 href="https://ravip925.github.io/PrepByte-Projects/JavaScript_Projects/ToDo%20List%20JS/index.html">
                 <div class="three"></div>
             </a>
-            <p class="project-name4">To-Do List-Mobile</p>
+            <p class="project-name4">Book Store</p>
             <a target="_blank"
-                href="https://ravip925.github.io/PrepByte-Projects/CSS%20Projects/ToDo%20Lists%20Mobile%20UI/index.html">
+                href="https://bookstore-crud.netlify.app/">
                 <div class="four"></div>
             </a>
             <p class="project-name5">Digital Clock Js</p>
@@ -166,7 +166,7 @@
                 <small class="s3e">Science </small>
                 <div class="resume-desc">
                     <p class="p9ff">To know more about me, download my resume from here.</p>
-                    <a class="resume-download" href="./Resume/Ravichandra's Resume(wp).pdf" download><img width="100%"
+                    <a class="resume-download" href="./Resume/Ravichandra Patil Resume final.pdf" download><img width="100%"
                             src="./images/download.svg" alt="cover"></a>
                 </div>
 
@@ -220,7 +220,7 @@
             </div>
             <div class="inside2">
                 <p class="p12b">Send me a message</p><br>
-                <form action="mailto:https://patilravi400@gmail.com" method="post" enctype="text/plain">
+                <form id="form" action="mailto:https://patilravi400@gmail.com" method="post" enctype="text/plain">
                     <label for="name">First and last name <span class="span2">*</span></label><br>
                     <input type="text" name="name" id="name" required><br>
                     <label for="email">Email Address <span class="span2">*</span></label><br>
@@ -230,7 +230,7 @@
                     <label for="message">Message <span class="span2">*</span></label><br>
                     <textarea name="message" id="message" cols="45" rows="2" placeholder="your message here..."
                         required></textarea>
-                    <button type="submit" class="lastbutton">Send Message</button>
+                    <button type="submit" class="lastbutton" onclick=sendEmail()>Send Message</button>
                 </form>
             </div>
         </div>
